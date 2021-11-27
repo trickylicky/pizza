@@ -5,21 +5,29 @@ h1{
     font-size: 65px;
 }
 .pizza{
-    background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-image: url(../images/pizza.jpg);
 }
 input{
     display: block;
+    margin: 10%;
+    background-color: rgb(31, 26, 26);
 }
 #formz{
-    border: solid yellowgreen 20px;
     width: 14%;
     margin-left: 38%;
-    padding: 0.5%;
-    border-radius: 20%;
+
 }
 .btn{
     background-color: unset;
 }
 .footer{
-    background-image: url(https://cdn.dribbble.com/users/1787323/screenshots/9712559/cute_pizza-02.png);
+    background-image: url(https://images.ctfassets.net/uexfe9h31g3m/6oBxgSjH9KoYuQqS2uO4Kc/a4b920125e77646ca7a573932a6301d6/GLUTEN-FREE-PIZZA.jpg?w=1200&h=600&fm=jpg&fit=thumb&q=90&fl=progressive);
+}
+select{
+    display: block;
+    margin: 12%;
+    background-color: rgb(31, 26, 26);
+}
+option{
+    color: beige;
 }

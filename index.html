@@ -11,13 +11,37 @@
  <div class="pizza">
     <h1><strong>P!ZZ@ <br> @RC@RDE</strong></h1>
     <section>
+        <h1>MAKE YOUR ORDER HERE</h1>
         <form action="tret" id="formz" >
-          <input type="text" name="" id="" required>type
-          <input type="text" name="" id="">type
-          <input type="text" name="" id="">type
-          <input type="number" name="" id="" required placeholder="enter number of pizza">number of pizza
+          <select name="topping" id="toppingz">
+            <option value="choose">CHOOSE TOPPING YOU PREFER</option>
+            <option value="ham">ham</option>
+            <option value="BBQ-chicken">BBQ-chicken</option>
+            <option value="bacon">bacon</option>
+            <option value="beef">beef</option>
+            <option value="blue-cheese">blue-cheese</option>
+            <option value="brie">brie</option>
+            <option value="manchengo">manchengo</option>
+            <option value="parmessan">parmessan</option>
+            <option value="carrots">carrots</option>
+            <option value="tomatoes">tomatoes</option>
+            <option value="peas">peas</option>
+            <option value="olives">olives</option>
+          </select>
+          <select name="sized" id="sized" placeholder="here">
+            <option value="">CHOOSE SIZE WHICH YOU PREFER</option>
+            <option value="">large</option>
+            <option value="">medium</option>
+            <option value="">small</option>
+          </select>
+          <select name="crust" id="crust">
+            <option value="choose">CHOOSE WHICH CRUST YOU PREFER</option>
+            <option value="crispy">Crispy</option>
+            <option value="stuffed">Stuffed</option>
+            <option value="gluten-free">Gluten free</option>
+          </select>
+          <input type="number" name="" id="" required placeholder="enter number of pizza"><h5><strong></strong></h5>
           <input type="submit" class="btn btn-primary btn-lg" onclick="submit">
-
         </form>
     </section>
  </div>
