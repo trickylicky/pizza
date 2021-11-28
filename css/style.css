@@ -6,6 +6,7 @@ h1{
 }
 .pizza{
     background-image: url(../images/pizza.jpg);
+    display: none;
 }
 input{
     display: block;
@@ -41,3 +42,17 @@ button{
 height: 75%;
 width: 45%;
 } */
+li {
+    display: inline;
+    font-size: 244%;
+  }
+  .welcome {
+    height: 100vh;
+  }
+  .try{
+      animation: ease-in;
+      color: blueviolet;
+  }
+  .align{
+      color: darkmagenta;
+  }
