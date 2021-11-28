@@ -14,5 +14,11 @@
       $(".welcome").toggle();
       $(".pizza").toggle();
     });
-    
-    
+
+    function myFunction(){
+      var locationz = prompt("input your locatio here please to be delivered");
+      if (locationz != null){
+        alert('your order will be delivered at'+ locationz);
+
+      }
+    }
