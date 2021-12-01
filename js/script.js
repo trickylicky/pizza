@@ -12,7 +12,7 @@
     function myFunction(){
       var locationz = prompt("input your location here please to be delivered");
       if (locationz != null){
-        alert('your order will be delivered at'+ locationz);
+        alert('After ordering,your order will be delivered at,'+ locationz + ". Price for delivery is 200ksh" );
 
       }
     }
@@ -93,6 +93,7 @@
     var total = topping + crust + sizem;
 
      var final= total * newNumber;
+     var pitsa = final+ 200;
       alert("YOUR ORDER IS "+final+"KSH")
       alert("PLEASE CLICK ORDER TO ENTER YOUR LOCATION ")
  
